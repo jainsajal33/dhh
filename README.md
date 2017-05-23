@@ -1,0 +1,1 @@
+<ion-card>   <ion-card-header>     T6 Markets   </ion-card-header>   <ion-card-content>     <div id="serviceStatus-button-bar5" class="button-bar" style="padding-right:5px;">     <div  *ngFor="let market of t6Markets.t6Markets">       <button ion-button color="status{{market.status}}">{{market.countryCode}}</button>     </div></div>   </ion-card-content> </ion-card>
