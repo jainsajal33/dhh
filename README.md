@@ -1,1 +1,3 @@
-<ion-card>  <ion-card-header>    Regions  </ion-card-header>  <ion-card-content>    The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.  </ion-card-content></ion-card>
+{	"dChart" : {		"up" : 1,		"down" : 2	},	"dCountry" : [{			"country" : "HK",			"flag" : 0		}, {			"country" : "UK",			"flag" : 0		}, {			"country" : "US",			"flag" : 1		}, {			"country" : "CA",			"flag" : 1		}, {			"country" : "MX",			"flag" : 1		}, {			"country" : "AR",			"flag" : 0		}	],	"dRegion" : [{			"region" : "Asia Pacific",			"flag" : 0		}, {			"region" : "Europe",			"flag" : 1		}, {			"region" : "North America",			"flag" : 1		}	]} 
+
+
