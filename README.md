@@ -1,1 +1,7 @@
-/** * Created by d3438092 on 12/05/17. */import {Http,Response} from '@angular/http';import {Injectable} from '@angular/core';import 'rxjs/add/operator/map';import {ConfigService} from './../shared/config.service';@Injectable()export class HomeService {    constructor(private http:Http,private config:ConfigService) {    }    getDashboard() {       var url = this.config.getApiURL()+ '/services/dashboard';      return this.http.get(url).map((res: Response) => res.json());    }}
+
+
+
+
+[{"id":"5926b104a3bb5716b65fbcd5","name":"Service Api down","dateOfIssue":"SUN 29th Jan","incidentNo":"IN1530","channel":"browser","businessSeverity":"medium","itSeverity":"high","businessImpact":"40 customers affected","country":"UK","region":"Europe","causeCode1":"Change Activity","causeCode2":"Database Issue","causeCode3":"Internal Error","recoveryActions":"PR raised","status":"in progress","createdOn":"Thu May 25 15:55:08 IST 2017","createdBy":"admin2","modifiedOn":"Thu May 25 15:55:08 IST 2017","modifiedBy":"admin1","comment":[{"value":"Test","createdOn":"Thu May 25 16:06:52 IST 2017","createdBy":"admin2"}]}] 
+
+
